@@ -254,7 +254,7 @@ The refactor passed 15 temporary regression checks using CPU computation, coveri
 
 ## Contributors
 
-- **Course project team** — original experiments, implementation, and [course report](report.pdf).
+- **Course project** — original experiments, implementation, and [course report](report.pdf).
 - **[WuqianMa](https://github.com/WuqianMa)** — repository owner.
 - **OpenAI Codex (GPT-based assistant)** — contributor for the modular refactor, README, portability fixes, hyperparameter-search wiring, and temporary CPU regression checks. This is an attribution of AI assistance.
 
