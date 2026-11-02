@@ -48,11 +48,9 @@ The course report is included in [report.pdf](report.pdf). The source has been r
 
 ## Installation
 
-Use **Python 3.10 or newer**. Python 3.12 is a suitable choice. From a terminal:
+Use **Python 3.10 or newer**. Python 3.12 is a suitable choice. Clone or download this repository, then run these commands from the project directory:
 
 ```bash
-git clone https://github.com/WuqianMa/Course_Project_Face_Keypoint.git
-cd Course_Project_Face_Keypoint
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[dev]'
