@@ -252,11 +252,7 @@ ruff check .
 
 The refactor passed 15 temporary regression checks using CPU computation, covering imports, CLI entry points, model shapes, masked-loss gradients, flip/mask synchronization, telemetry, deduplication, matrix expansion, and one-epoch training/search/aggregation on synthetic CSVs. The temporary tests were deleted after passing, as requested by the maintainer. Full-scale training and report reproduction require the external inputs described above.
 
-## Contributors
 
-- **Course project** — original experiments, implementation, and [course report](report.pdf).
-- **[WuqianMa](https://github.com/WuqianMa)** — repository owner.
-- **OpenAI Codex (GPT-based assistant)** — contributor for the modular refactor, README, portability fixes, hyperparameter-search wiring, and temporary CPU regression checks. This is an attribution of AI assistance.
 
 ## License and data rights
 
