@@ -1,0 +1,12 @@
+# Paths are relative to the repository root for matrix commands.
+out_dir: results/03_aug
+defaults:
+  epochs: 30
+  batch_size: 128
+  num_workers: 0
+  hflip_mask_sync: true
+matrix:
+  dataset: [small_raw, large_dedup, full_dedup]
+  model: [mlp2, cnn_shallow, resnet18_pretrained]
+  strategy: [S1, S2, S3, S4, S5]
+  seed: [0]
